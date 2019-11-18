@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+    <style>
+            table {
+                border: 1px solid black;
+                table-layout: fixed;
+                width: 1200px;
+                margin-left:auto; 
+                margin-right:auto; 
+                font-family: Arial, Helvetica, sans-serif;
+              }
+              td, th{
+                border: 1px solid black;
+                text-align: center;
+                height: 40px;
+              }
+    </style>
+
+    <head>
+        <title>RESTful API</title>
+    </head>
+    <body style="position:relative;
+    margin:0px;">
+        <div style="height: 220px; 
+        background: #cdcdcd; font-size: 60px; font-family: Georgia, 'Times New Roman', Times, serif;margin: auto; vertical-align: middle; font-weight: bold;">
+        <br/>RESTful API
+        </div>
+        <br/><br/><br/>
+        <table>
+            <tr>
+                <th>Descrição</th>
+                <th>Link</th>
+                <th>Metodo</th>
+                <th>
+                    Tipo de dado
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    Criar um objeto
+                </td>
+                <td>
+                    <a href="https://fprestapi.000webhostapp.com/api/Usuario/Create.php">https://fprestapi.000webhostapp.com/api/Usuario/Create.php</a>
+                </td>
+                <td>
+                    POST
+                </td>
+                <td>
+                    JSON
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    Ler todos os itens
+                </td>
+                <td>
+                        <a href="https://fprestapi.000webhostapp.com/api/Usuario/Read.php">https://fprestapi.000webhostapp.com/api/Usuario/Read.php</a>
+                </td>
+                <td>
+                    GET
+                </td>
+                <td>
+                    JSON
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Pesquisar um item entre os cadastrados
+                </td>
+                <td>
+                        <a href="https://fprestapi.000webhostapp.com/api/Usuario/Read_single.php?id=1">
+                            https://fprestapi.000webhostapp.com/api/Usuario/Read_single.php?id=1</a>
+                </td>
+                <td>
+                    GET
+                </td>
+                <td>
+                    JSON
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Editar um objeto
+                </td>
+                <td>
+                        <a href="https://fprestapi.000webhostapp.com/api/Usuario/Edit.php">
+                            https://fprestapi.000webhostapp.com/api/Usuario/Edit.php</a>
+                </td>
+                <td>
+                    PUT
+                </td>
+                <td>
+                    JSON
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Deletar um objeto
+                </td>
+                <td>
+                        <a href="https://fprestapi.000webhostapp.com/api/Usuario/Delete.php?id=1">
+                            https://fprestapi.000webhostapp.com/api/Usuario/Delete.php?id=1</a>
+                </td>
+                <td>
+                    DELETE
+                </td>
+                <td>
+                    JSON
+                </td>
+            </tr>
+        </table>
+
+    </body>
+
+</html>
